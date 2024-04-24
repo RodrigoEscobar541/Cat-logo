@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REFHCatálogo</title>
+    <link rel="website icon" type="image/png" href="./img/Untitled-1.png">
+    <link rel="stylesheet" type="text/css" href="./css/Estilo.css">
+</head>
+<body>
+    <header class="Menu">
+            <div class="Hamburguer">
+                <img class="ImgHamburguer" id="ImgHamburguer" onclick="Hamburguer()" src="./img/Menu/7231133.png">
+                <ul class="ListaHamburguer" id="ListaHamburguer">
+                    <li id="PlacaDeVideo">Placa de vídeos
+                    <li id="Processadores">Processadores</li>
+                    <li id="MemóriaRam">Memória RAM</li>
+                    <li id="Headset">Headset</li>
+                    <li id="Mouse">Mouse</li>
+                    <!--<li id="Mousepad">Mousepad</li>-->
+                    <!--<li id="HDD">HDD</li>-->
+                    <li id="Outros">Outros</li>
+                </ul>
+            </div>
+            <div class="HamburguerContatos">
+                <p class="MenuContatos" onclick="ContatoMenu()">Contato</p>
+                <ul class="ContatosHamburguer" id="ContatosHamburguer">
+                    <li class="ContaIconsflex"><img class="ImgIconContato" src="./img/Menu/IconWhats.png"><p onclick="Wpp()" class="txticoncontato">Whatsapp</p></li>
+                    <li class="ContaIconsflex"><img class="ImgIconContato" src="./img/Menu/iconEmail.png"><p class="txticoncontato"><a style="text-decoration: none; color: black;" href="mailto:rodrigoegdff@gmail.com?Subject=Hello%20again" target="_blank">E-mail</a></p></li>
+                </ul>
+            </div>
+            <div class="Retirar">
+                <p class="txtRetirar" onclick="RetirarMenu()">Retrirar
+                <p id="HamburguerRetirar" onclick="ContatoRetirar()" class="HamburguerRetirar">Me chame via Whatsapp para combinar a entrega!!
+            </div>
+            <label class="label" for="pesquisa">Pesquisar por:</label>
+            <input id="pesquisa" class="pesquisa" placeholder="Placa de video" type="text">
+    </header>
+    
+    <section  class="anuncios">
+        <p class="Filtro" id="Filtro"><img src="./img/Filtro.png" class="ImgFiltro"> Limpar Filtro</p>
+        <ol class="Divisao">
+            
+            <div class="MemoriaRam Anuncio">
+                <img class="Img I1" src="./img/Anuncios/Memória ZADAK.png" alt="Memória Zadak">
+                <p class="TitúloProduto T1">Memória RAM 8GB DDR4 3000mhz Zadak Spark Black</p>
+                <p class="Unidades U1">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P1">Preço: &#x52;&#36; 89,00</p>
+                <a class="LinkML" href="https://produto.mercadolivre.com.br/MLB-3866667530-memoria-ram-8gb-ddr4-preto-rgb-zadak-3000mhz-_JM" target="_blank">
+                <img class="ImgLink ImgML IL1" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P1">Preço: &#x52;&#36; 149,00</p>
+                <a class="LinkOLX" href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/memoria-ram-8gb-ddr4-3000mhz-zadak-spark-black-1228945088?" target="_blank">
+                <img class="ImgLink ImgOLX IL1" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D1">
+                Marca:Zadak<br>
+                Modelo:Spark - ZD4-SPR30C08-08GYB1<br>
+                Tipo:288-Pin DDR4 U-DIMM<br>
+                Velocidade / Timing / Voltagem:DDR4 3000 C16-18-18-38 1.35V<br>
+                Capacidade:8GB<br>
+                Material do dissipador:  Aluminio anodizado<br>
+                Led:RGB
+                </p>
+            </div>
+
+            <div class="Anuncio PlacaDeVideo">
+                <img class="Img I4" src="./img/Anuncios/GTX 750 TI.png" alt="Placa de video GTX 750 Ti">
+                <p class="TitúloProduto T4">Placa De Vídeo Nvidia Gtx 750ti 2GB</p>
+                <p class="Unidades U4">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 699,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3424010167-placa-de-video-nvidia-gtx-750ti-2gb-_JM" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x53;&#36; 620,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/placa-de-video-nvidia-gtx-750ti-2gb-1230547646?" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D4">
+                    Fabricante: Gigabyte
+                    Tipo de memória gráfica GDDR5 ,funciona em placas mãe DDR3 DDR3 DDR4
+                    Interface com a placa-mãe: PCI-Express 2.0
+                    Conectividade: pci express 6 pinos
+                    Tamanho da memória: 2 GB
+                    Placa De Vídeo Gtx Gigabyte 750ti 2g Gta V Roda Jogos atuais perfeitamente
+                </p>
+            </div>
+
+            <div class="Anuncio PlacaDeVideo">
+                <img class="Img I4" src="./img/Anuncios/RX 5600XT.png" alt="Placa de video RX 5600 XT 6GB">
+                <p class="TitúloProduto T4">RX 5600XT 6GB Placa de vídeo SOYO  GPU GDDR6</p>
+                <p class="Unidades U4">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 1.269,00 </p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3938610660-rx-5600xt-6gb-placa-de-video-soyo-gpu-gddr6-_JM" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x53;&#36; 1.135,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/rx-5600xt-6gb-placa-de-video-soyo-1230538682?" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D4">
+                    Fabricante: SOYO
+                    Tipo de memória gráfica GDDR5 ,funciona em placas mãe DDR3 e DDR4
+                    Interface com a placa-mãe: PCI-Express 2.0
+                    Conectividade: pci express 8 pinos
+                    Tamanho da memória: 6 GB
+                    Placa De Vídeo RX 5600 XT 2g Roda Jogos atuais perfeitamente
+                    Conector de alimentação 8pin
+                    SIZE: 270X120X40MM
+                </p>
+            </div>
+
+            <div class="Mouse Headset Anuncio">
+                <img class="Img I10" src="./img/Anuncios/FoneMouse.png" alt="Novo
+                Headset Gamer Dazz Special + Mouse Gamer Ninja Claw, Rgb, 6b">
+                <p class="TitúloProduto T10">
+                Headset Gamer Dazz Special + Mouse Gamer Ninja Claw, Rgb, 6b</p>
+                <p class="Unidades U10">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P10">Preço: &#x52;&#36; 109,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3692527316-headset-gamer-dazz-special-mouse-gamer-ninja-claw-rgb-6b-_JM" target="_blank">
+                    <img class="ImgLink IL10" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P10">Preço: &#x52;&#36; 110,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/headset-gamer-dazz-special-mouse-gamer-ninja-claw-rgb-6b-1196773547?" target="_blank">
+                <img class="ImgLink IL10" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D10">Marca:Gamer Ninja
+                    Modelo:MS-GN-CLAW
+                    Sensor:INSTANT 603E
+                    DPI:1200-1800-2400-3600
+                    Botões:6
+                    Aceleração:8g
+                    Velocidade de Rastreamento:30ips
+                    Polling Rate:125 Hz
+                    Switch:5mil HUANO
+                    Tipo de Cabo:Trançado
+                    Tamanho do Cabo:1,5 m
+                    RGB:Sim
+                    Superfície:Revestimento de borracha
+                    Software:Não
+                    Tensão operacional:5V
+                    Corrente Operacional:100mA
+                    Shape:Ergonômico
+                    Cor:Preto
+                    Conectividade:USB 2.0</p>
+            </div>
+
+            <div class="Headset Anuncio">
+                <img class="Img I2" src="./img/Anuncios/Fone.png" alt="Fone Gamer Forcess Jungle">
+                <p class="TitúloProduto T2">Headset Gamer Dazz Special Forces Jungle</p>
+                <p class="Unidades U2">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P2">Preço: &#x52;&#36; 85,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3324689737-headset-gamer-dazz-special-forces-jungle-35mm-surroun20-_JM" target="_blank">
+                    <img class="ImgLink IL2" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <p class="Preço P2"></p>
+                <!-- <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/headset-gamer-dazz-special-forces-jungle-3-5mm-surround-2-0-1188685970?" target="_blank">
+                    <img class="ImgLink IL2" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a> -->
+                <p class="DescProduto D2">
+                Marca:Dazz 
+                Modelo:62000019
+                Cor:Jungle 
+                Compatível com:PC, PS4 E XBOX ONE
+                Conector:3.5mm P3 
+                Tecnologia:Surround 2.0 
+                Cancelamento de ruído:Sim 
+                Impedância:32ohms.
+                Potência máx.entrada: 20mw.
+                Freqüência:20Hz20.000Hz.
+                Comprimento cabo:2.2 m.
+                Sensibilidade:115dB  1KHz.
+                Dimensões:22x16,5x10,5cm
+                </p>
+            </div>
+
+            <div class="Outros Anuncio">
+                <img class="Img I4" src="./img/Anuncios/Adapt.png" alt="Plugue Adaptador 5un. Plano B Adcaptcon">
+                <p class="TitúloProduto T4">Plugue Adaptador 5un. Plano B Adcaptcon</p>
+                <p class="Unidades U4">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 149,99</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3285144421-plugue-adaptador-5un-plano-b-adcaptcon-_JM" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                    <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 110,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/utilidades-domesticas/plugue-adaptador-5un-plano-b-adcaptcon-1196778024?" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D4">Nosso produto consiste em um plano B, ou seja, um plano de emergência no caso de alguma tomada de seus eletrodomésticos e outros, queimar, danificar, ou não ter entrada universal.
+                    Recomendado usar em equipamentos e tomadas 110v!
+                    Manter longe de crianças! Consiste em:
+                    Tomada macho universal 10am;
+                    Cabo curto, tipo PP;
+                    Emenda simples.<br>
+                    Irá 5 unidades dos nossos produtos.</p>
+            </div>
+
+            <div class="Anuncio Processadores">
+                <img class="Img I4" src="./img/Anuncios/processadorduo.jpg.png" alt="Processador Duo Core 2.66ghz  LGA775">
+                <p class="TitúloProduto T4">Processador Duo Core 2.66ghz  LGA775</p>
+                <p class="Unidades U4">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 29,99</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3356189781-processador-duo-core-266ghz-lga775-_JM" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <!--<div style="text-align: center;"><p class="Preço P4">Preço: &#x53;&#36;</p>
+                <a href="" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>-->
+                <p class="DescProduto D4"></p>
+            </div>
+
+            <div class="Anuncio Outros">
+                <img class="Img I4" src="./img/Anuncios/placa de rede.jpg" alt="Placa De Rede Wireless-g 2.4ghz Pci">
+                <p class="TitúloProduto T4">Placa De Rede Wireless-g 2.4ghz Pci</p>
+                <p class="Unidades U4">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 35,00</p>
+                <a href="" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <!--<div style="text-align: center;"><p class="Preço P4">Preço: &#x53;&#36;</p>
+                <a href="" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>-->
+                <p class="DescProduto D4">Placa de rede wirelles para desktop<br>
+                    Entrada na placa mãe: PCI<br>
+                    Enviado com antena!!</p>
+            </div>
+
+            <div class="Headset Mouse Mousepad Anuncio"> 
+                <img class="Img I3" src="./img/Anuncios/Razer.png" alt="Combo Razer">
+                <p class="TitúloProduto T3">Combo Gamer Razer Battle Bundle, Mouse Gamer DeathAdder V2 + Headset Gamer BlackShark V2 X + Mousepad Gigantus V2, Black</p>
+                <p class="Unidades U3">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P3">Preço: &#x52;&#36; 480,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3332425589-kit-gamer-razer-battle-bundle-mouse-headset-mousepad-_JM" target="_blank">
+                    <img class="ImgLink IL3" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P3">Preço: &#x52;&#36; 399,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/kit-gamer-razer-battle-bundle-mouse-headset-mousepad-1196761821?" target="_blank">
+                    <img class="ImgLink IL3" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D3">Com este kit de teclado e mouse da Razer você poderá levar seus jogos para outro nível. Destinado a um público gamer, aumente seu desempenho em diferentes jogos. Com este combo, você poderá usar esses dispositivos intensamente e desfrutar de infinitas horas de diversão.</p>
+            </div>
+
+            <div class="Headset Anuncio">
+                <img class="Img I4" src="./img/Anuncios/Fone Razer.png" alt="Headset Gamer Razer BlackShark">
+                <p class="TitúloProduto T4">Headset Gamer Razer Blackshark V2 X Over-ear Black</p>
+                <p class="Unidades U4">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 399,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3325308019-headset-gamer-razer-blackshark-v2-x-over-ear-black-_JM" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 330,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/headset-gamer-razer-blackshark-v2-x-over-ear-black-1196766281?" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D4">Nosso novíssimo design patenteado permite que nossos engenheiros realizem o ajuste personalizado de cada driver como se fossem três, fazendo com que as replicações individuais de frequências de áudio altas, médias e baixas forneçam agudos mais ricos, um som mais brilhante e graves potentes.</p>
+            </div>
+
+            <div class="Mouse MousePad Anuncio">
+                <img class="Img I5" src="./img/Anuncios/MousePad.png" alt="Mouse e Mouse Pad razer">
+                <p class="TitúloProduto T5">Mouse Razer Deathadder V2 + Mousepad Razer Gigantes V2</p>
+                <p class="Unidades U5">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P5">Preço: &#x52;&#36; 299,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3332815217-mouse-razer-deathadder-v2-mousepad-razer-gigantes-v2-_JM" target="_blank">
+                    <img class="ImgLink IL5" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P5">Preço: &#x52;&#36; 240,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/mouse-razer-deathadder-v2-mousepad-razer-gigantes-v2-1196767059?" target="_blank">
+                <img class="ImgLink IL5" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D5">
+                    Sensor óptico Focus+ com definição real de 20 mil DPI
+                    Até 650 polegadas por segundo (IPS) / 50 G de aceleração / a melhor precisão de resolução da indústria, com 99,6%
+                    Switches ópticos de mouse Razer™ com 70 milhões de cliques nominais
+                    Design ergonômico melhorado com empunhaduras laterais em borracha ultradurável
+                    Pés de mouse de tamanho grande (0,8 mm de espessura) 100% em PTFE
+                </p>
+            </div>
+
+            <div class="Anuncio MemoriaRam">
+                <img class="Img I4" src="./img/Anuncios/memoriajuh.jpg" alt="Memória RAM 32GB DDR4 2x16GB 3200Ghz">
+                <p class="TitúloProduto T4">Memória RAM 32GB DDR4 2x16GB 3200Ghz</p>
+                <p class="Unidades U4">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 378,90</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3741938630-memoria-ram-32gb-ddr4-2x16gb-3200ghz-_JM" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 335,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/memoria-reeem-32gb-ddr4-2x16gb-3200mhz-1208204604?" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D4">Marca:
+                    JUHOR<br>
+                    RGB:
+                    No<br>
+                    Pacote:
+                    Sim<br>
+                    Origem:
+                    China continental<br>
+                    Aleta de resfriamento:
+                    Sim<br>
+                    Frequência de Memória:
+                    3200 MHz<br>
+                    Tipo:
+                    DDR4<br>
+                    Seqüência:
+                    19<br>
+                    Voltagem da Memória:
+                    1,2V<br>
+                    Frequência:
+                    3200Mhz<br>
+                    Aplicativo:
+                    Área de Trabalho<br>
+                    Tipo de interface:
+                    288 pinos<br>
+                    O valor de CL:
+                    19</p>
+            </div>
+
+            <div class="Anuncio MemoriaRam">
+                <img class="Img I3" src="./img/Anuncios/Memória Asgard.jpg" alt="Memória Asgard">
+                <p class="TitúloProduto T4">Memória Ram 32gb (2x16gb) DDR4 Asgard 3200mhz Branca</p>
+                <p class="Unidades U4">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 378,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3938660176-memoria-ram-32gb-2x16gb-ddr4-asgard-3200mhz-branca-_JM" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 335,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/memoria-ram-32gb-2x16gb-ddr4-asgard-3200mhz-branca-1228768095?" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D4">
+                    Capacidade total: 32 GB
+                    Velocidade: 3200 MHz
+                    É gamer: Sim
+                    Formato: DIMM
+                    Tecnologia: DDR4 SDRAM
+                    Marca: Asgard Loki Série T3
+                    
+                    Capacidade: 32GB
+                    
+                    Frequênci: 3200MHz/3600MHz
+                    
+                    Tensão: 1,35 V
+                    
+                    Tipo memória: DDR4
+                    
+                    Memória Latência CAS: CL18
+                    </p>
+            </div>
+
+            <div class="Anuncio MemoriaRam">
+                <img class="Img I3" src="./img/Anuncios/Memória Kllisre-RAM.jpg" alt="Memória Kllisre-RAM">
+                <p class="TitúloProduto T4">Memória RAM 32GB (2x16gb) ddr4 Kllisre 3200Mhz  branca</p>
+                <p class="Unidades U4">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 378,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3892892884-memoria-ram-kllisre-32gb-2x16gb-ddr4-3200mhz-branca-_JM" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; 335,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/memoria-kllisre-ram-32gb-2x16gb-ddr4-3200mhz-branca-1226188051?" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D4">Chips originais, para HY SEC ELP MIC...
+                    Suporte Dual Channel
+                    DDR4 = 1,2 V
+                    Qualidade superior e melhor preço
+                    Os rams 2666Mhz e 3200MHz não suportam os processadores da série AMD “G” (ex:R5 5600G R7 5700G.) e R5 4500,R5 5500
+                    Aleta de refrigeração: Sim</p>
+            </div>
+
+            <div class="PlacaDeVideo Anuncio">
+                <img class="Img I7" src="./img/Anuncios/placa gt 430.png" alt="Placa De Vídeo Gt 430">
+                <p class="TitúloProduto T7">Placa De Vídeo Gt 430 2gb Pcyes</p>
+                <p class="Unidades U7">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P7">Preço: &#x52;&#36; 149,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3470776326-placa-de-video-gt-430-2gb-pcyes-_JM" target="_blank">
+                    <img class="ImgLink IL7" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <!--<div style="text-align: center;"><p class="Preço P7">Preço: &#x52;&#36; 169,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/placa-de-video-gt-430-2gb-pcyes-1196769175?" target="_blank">
+                <img class="ImgLink IL7" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>-->
+                <p class="DescProduto D7">Placa de vídeo para jogos e afins.
+                    Há 2GB
+                    Há caixa original, DVD de instalação e manual, com acessórios para o gabinete.</p>
+            </div>
+
+            <div class="Processadores Anuncio">
+                <img class="Img I8" src="./img/Anuncios/Processadori3.png" alt="Processador I3 10100f 3.6ghz Lga 1200">
+                <p class="TitúloProduto T8">Processador I3 10100f 3.6ghz Lga 1200</p>
+                <p class="Unidades U8">SEM ESTOQUE!</p>
+                <div style="text-align: center;"><p class="Preço P8">Preço: &#x52;&#36; 389,00</p>
+                <a href="https://produto.mercadolivre.com.br/MLB-3683786540-processador-i3-10100f-36ghz-lga-1200-_JM" target="_blank">
+                    <img class="ImgLink IL8" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P8">Preço: &#x52;&#36; 370,00</p>
+                <a href="https://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/processador-i3-10100f-3-6ghz-lga-1200-1196770895?" target="_blank">
+                <img class="ImgLink IL8" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D8">Produtividade e entretenimento, tudo disponível no seu computador de mesa. A superioridade tecnológica da Intel é um benefício para todos os tipos de profissionais. Garante o melhor desempenho dos aplicativos, transferência de dados e conexão com outros elementos tecnológicos.</p>
+            </div>
+
+            <!--
+            PlacaDeVideo
+            Processadores
+            MemoriaRam
+            Headset
+            Mouse
+            MousePad
+            Outros
+            -->
+
+            <!--<div class="Anuncio A4"> Exemplo
+                <img class="Img I4" src="./img/Anuncios/" alt="">
+                <p class="TitúloProduto T4"></p>
+                <p class="Unidades U4">Última unidade.</p>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x52;&#36; </p>
+                <a href="" target="_blank">
+                    <img class="ImgLink IL4" src="./img/Anuncios/ML.png" alt="Logo Mercdo Livre"></a></div>
+                <div style="text-align: center;"><p class="Preço P4">Preço: &#x53;&#36;</p>
+                <a href="" target="_blank">
+                <img class="ImgLink IL4" src="./img/Anuncios/OLX.png" alt="Logo OLX"></a></div>
+                <p class="DescProduto D4"></p>
+            </div>-->
+        </ol>
+    </section>
+
+    <div class="WppFlutuante">
+        <div id="chat">
+          <time id="relogio" datetime="2023-04-26T09:30:00-03:00"></time>
+          <div class="FecharChat" onclick="abrirchat()">x</div>
+          <img class="chatimg" src="./Img/WppFlutuante/ChatImg2.png">
+          <input type="text" id="nome" pattern="\d{2}/\d{2}/\d{4}" placeholder="Ex: Rodrigo">
+          <input type="text" id="Assunto" placeholder="Ex: Retirar Pessoalmente">
+          <button id="Enviar" type="hidden" onclick="EnviarWpp()">C</button>
+        </div>
+        <img id="imgwhats" class="ImgWppFlutante" src="./Img/WppFlutuante/WppFlutuante.png" onclick="abrirchat()">
+    </div>
+    <div id="Topo" class="Topo">
+        <img class="imgTopo" src="./img/Topo.png" alt="Voltar ao Topo">
+    </div>
+    <footer>
+        <p class="copy" onclick="Wpp() ">&copy; Rodrigo Escobar</p>
+    </div>
+    
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
